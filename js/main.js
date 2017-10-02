@@ -1,4 +1,22 @@
-//LOADING SCREEN
+//Click card back to fade in/out full-screen div
+$( "#back_1" ).click(function() {
+	$("#cover_one").fadeIn( "slow", function() {
+  });
+  //Disable scroll when full-screen div
+	$('body').addClass('stop-scrolling');
+	$('body').bind('touchmove', function(e){e.preventDefault()});
+});
+
+$("#cover_one").click(function() {
+  $("#cover_one").fadeOut( "slow", function() {
+  $(".card").flip(false);	
+  });
+  //Enable scroll when exiting full-screen div
+  	$('body').removeClass('stop-scrolling');
+  	$('body').unbind('touchmove');
+});
+
+//Loading Screen
 function onReady(callback) {
     var intervalID = window.setInterval(checkReady, 3000);
 
@@ -19,27 +37,15 @@ onReady(function () {
 	$('#loading').fadeOut("slow");
 });
 
-//CARD FLIP WHEN CLICKED
+//Card flip when clicked
 $(".card").flip();
 
-//FILLS ENTIRE SCREEN WHEN CARD IS FLIPPED
-$('.card').on('flip:done', function onFlipDone() {
-	// $(this).off('.flip');
+//Disable flip once flipped
+// $('.card').on('flip:done', function onFlipDone() {
+// 	$(this).off('.flip');
+// });
 
-});
-
-//NO IDEA WHAT IM DOING
-$(window).on("click", ".back", function() {
-    me = this;
-    setTimeout( function() { $(me).removeClass("card back").addClass("big"); }, 1 );
-});
-
-$(window).on("click", ".big", function() {
-    me = this;
-    setTimeout( function() { $(me).removeClass("big").addClass("card back"); }, 1 );
-});
-
-//PAGE POSITION STARTS AT TOP
+//Page position starts at top
 if ('scrollRestoration' in history) {
 	history.scrollRestoration = 'manual';
 }
@@ -55,7 +61,7 @@ $("li a").click(function(event){
 	$("html, body").animate({scrollTop: divPosition});
 });
 
-//SIDE NAVIGATION BAR FADE WHILE SCROLLING
+//Side navigation bar fade while scrolling
 (function setupSidebar() {
 	var lastTimeoutHandle = null;
 	var shouldFadeOut = true;
