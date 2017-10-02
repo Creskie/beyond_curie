@@ -1,0 +1,117 @@
+/* LOADING SCREEN */
+#container {
+	display: none;
+}
+
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5f7fb;
+    background-image: url('../images/flip_card_loading.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* STYLE */
+#title {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.poster_number {
+	margin-left: 10px;
+}
+
+.gallery_poster {
+	width: 100%;
+}
+
+.card {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	height: 100%;
+}
+
+/* CARD BACK */
+.back:after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+/* FONT */
+* {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.back_content {
+}
+
+/* SIDE BAR NAVIGATION */
+#mobile_nav {
+    list-style-type: none;
+	right: 0;
+	top:0;
+	position: fixed;
+	height:50%;
+	z-index: 1;
+	margin-right: 10px;
+}
+
+.nav_list {	
+	height: 3.84615384615%;
+	min-height: 20px;
+	display: block;
+}
+
+.side_number, .side_number:hover, .side_number:active, .side_number:visited {
+	padding-top:75%;
+	display: block;
+	text-decoration:none;
+	color:gray;
+	text-align:center;
+	width:30px;
+}
+
+/* FLIP TO COLORED BOX */
+div#back_1 {
+	background-color: #f95732;
+}
+
+div#back_2 {
+	background-color: #f23d70;
+}
+
+div#back_3 {
+	background-color: #eed6be;
+}
+
+div#back_4 {
+	background-color: #d2e0d3;
+}
+
+div#back_5 {
+	background-color: #ffffff;
+}
+
+/* EXPAND TO FULL SCREEN.. also no idea what im doing */
+div.big {
+    width: 100vh;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+    left: 0;
+    margin-left: 0;
+    border-radius: 0;
+}
