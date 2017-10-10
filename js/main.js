@@ -1,3 +1,5 @@
+$('img.lazy').lazyload();
+
 // Click card back to fade in/out full-screen div
 $('.card').click(function onCardClick() {
   var cardKey = $(this).data('key');
