@@ -3,21 +3,24 @@ $('img.lazy').lazyload({ threshold: 1000 });
 // Click card back to fade in/out full-screen div
 $('.card').click(function onCardClick() {
   var cardKey = $(this).data('key');
-  var coverSelector = "#cover_" + cardKey;
-  var body = $('body');
+  $('#cover_' + cardKey)
+    .removeClass('cover-hidden')
+    .addClass('cover-show')
+    .one('transitionend webkitTransitionEnd oTransitionEnd', function onCoverFadeIn() {
+      $('body').addClass('stop-scrolling');
+    });
 
-  $(coverSelector).fadeIn(400, function onFadeOut() {
-    body.addClass('stop-scrolling');
-  });
-
-  body.on('touchmove', function (e) { e.preventDefault(); });
+  $('body').on('touchmove', function (e) { e.preventDefault(); });
 });
 $('.cover').click(function onCoverClick() {
-  $(this).fadeOut(400);
+  $(this)
+    .removeClass('cover-show')
+    .addClass('cover-hidden')
+    .off('transitionend webkitTransitionEnd oTransitionEnd');
 
-  var body = $('body');
-  body.removeClass('stop-scrolling');
-  body.off('touchmove');
+  $('body')
+    .removeClass('stop-scrolling')
+    .off('touchmove');
 });
 
 // Loading Screen

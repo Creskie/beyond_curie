@@ -12,8 +12,19 @@
 
   z-index: 100;
 
-  display: none;
   overflow: scroll;
+}
+
+.cover-hidden {
+  visibility: hidden;
+  opacity: 0.0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.cover-show {
+  visibility: visible;
+  opacity: 1.0;
+  transition: opacity 0.5s linear;
 }
 
 #cover_1 {
