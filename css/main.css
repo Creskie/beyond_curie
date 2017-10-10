@@ -221,8 +221,11 @@
 }
 
 .card {
-	margin-left: 50px;
-	margin-right: 50px;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 9vw;
+	padding-right: 9vw;
 	margin-bottom: 25px;
 	height: 100%;
 }
@@ -236,7 +239,7 @@
 	margin-left: auto;
 	margin-bottom: 0;
 	margin-right: auto;
-	font-size: 50pt;
+	font-size: 25pt;
 }
 
 .dates {
@@ -247,18 +250,18 @@
 	margin-left: auto;
 	margin-bottom: 0;
 	margin-right: auto;
-	font-size: 10pt;
+	font-size: 15pt;
 }
 
 .quote {
 	text-align: center;
 	font-family: Univers-Regular-Italic, sans-serif;
-	margin-top: 1.5%;
+	margin-top: 2%;
 	width: 80vw;
 	margin-left: auto;
 	margin-bottom: 10%;
 	margin-right: auto;
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
 .primary_info {
