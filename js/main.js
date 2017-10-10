@@ -10,7 +10,7 @@ $('.gallery_poster').click(function onCardClick() {
       $('body').addClass('stop-scrolling');
     });
 
-  $('body').on('touchmove', function (e) { e.preventDefault(); });
+  // $('body').on('touchmove', function (e) { e.preventDefault(); });
 });
 $('.cover').click(function onCoverClick() {
   $(this)
@@ -20,7 +20,7 @@ $('.cover').click(function onCoverClick() {
 
   $('body')
     .removeClass('stop-scrolling')
-    .off('touchmove');
+    // .off('touchmove');
 });
 
 // Loading Screen

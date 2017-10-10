@@ -13,6 +13,7 @@
   z-index: 100;
 
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .cover-hidden {
@@ -159,6 +160,31 @@
 
 #cover_27 {
     background: #4aba6d;
+ 	color: black;
+}
+
+#cover_28 {
+    background: #ecf1ea;
+ 	color: black;
+}
+
+#cover_29 {
+    background: #231b70;
+ 	color: white;
+}
+
+#cover_30 {
+    background: #4784b0;
+ 	color: black;
+}
+
+#cover_31 {
+    background: #f9ad81;
+ 	color: black;
+}
+
+#cover_32 {
+    background: #892c3d;
  	color: black;
 }
 
