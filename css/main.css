@@ -264,23 +264,41 @@
 	font-size: 12pt;
 }
 
+.timeline-part {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline-left {
+  padding-top: 0.5rem;
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+}
+
 .primary_info {
 	font-family: Univers-Bold, sans-serif;
-	margin-top: 2rem;
-	width: 80vw;
-	margin-left: auto;
-	margin-bottom: 0;
-	margin-right: auto;
+  margin-top: 0px;
+	margin-bottom: 0px;
+  margin-right: 0.5rem;
 	font-size: 10pt;
+  text-align: right;
+}
+
+.timeline-right {
+  padding-top: 0.5rem;
+  display: inline-block;
+  vertical-align: top;
+  border-left: 1px solid;
+  padding-left: 0.5rem;
+  width: 80%;
 }
 
 .intermediate_info {
 	font-family: Univers-Regular, sans-serif;
-	margin-top: .5rem;
-	width: 80vw;
-	margin-left: auto;
-	margin-bottom: 0;
-	margin-right: auto;
+  margin-top: 0px;
+	margin-bottom: 0.5rem;
 	font-size: 11pt;
 }
 
