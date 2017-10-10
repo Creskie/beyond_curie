@@ -1,8 +1,8 @@
 $('img.lazy').lazyload({ threshold: 1000 });
 
 // Click card back to fade in/out full-screen div
-$('.card').click(function onCardClick() {
-  var cardKey = $(this).data('key');
+$('.gallery_poster').click(function onCardClick() {
+  var cardKey = $(this).parent().data('key');
   $('#cover_' + cardKey)
     .removeClass('cover-hidden')
     .addClass('cover-show')
