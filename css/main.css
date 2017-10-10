@@ -33,8 +33,8 @@
 }
 
 #cover_2 {
-    background: #ffffff;
- 	color: black;
+    background: #43174b;
+ 	color: white;
 }
 
 #cover_3 {
@@ -43,42 +43,42 @@
 }
 
 #cover_4 {
-    background: #f6583a;
+    background: #19a2ae;
  	color: black;
 }
 
 #cover_5 {
-    background: #f2c4dd;
+    background: #d5e393;
  	color: black;
 }
 
 #cover_6 {
-    background: #f6ece3;
+    background: #ef4072;
  	color: black;
 }
 
 #cover_7 {
-    background: #204193;
- 	color: white;
+    background: #664fb9;
+ 	color: black;
 }
 
 #cover_8 {
-    background: #ded531;
+    background: #ac83b5;
  	color: black;
 }
 
 #cover_9 {
-    background: #43174b;
- 	color: white;
-}
-
-#cover_10 {
-    background: #f77066;
+    background: #9ed5ce;
  	color: black;
 }
 
+#cover_10 {
+    background: #000000;
+ 	color: white;
+}
+
 #cover_11 {
-    background: #1bb391;
+    background: #ffffff;
  	color: black;
 }
 
@@ -88,82 +88,77 @@
 }
 
 #cover_13 {
-    background: #9dd3ca;
+    background: #6b7c4d;
  	color: black;
 }
 
 #cover_14 {
-    background: #e6ac39;
+    background: #f6583a;
  	color: black;
 }
 
 #cover_15 {
-    background: #1ea7e4;
+    background: #f2b72b;
  	color: black;
 }
 
 #cover_16 {
-    background: #19a1ad;
- 	color: black;
-}
-
-#cover_17 {
-    background: #ef4072;
- 	color: black;
-}
-
-#cover_18 {
-    background: #faa99d;
- 	color: black;
-}
-
-#cover_19 {
-    background: #d5e393;
- 	color: black;
-}
-
-#cover_20 {
-    background: #1999ba;
- 	color: black;
-}
-
-#cover_21 {
-    background: #fd9aaf;
- 	color: black;
-}
-
-#cover_22 {
-    background: #af85b8;
- 	color: black;
-}
-
-#cover_23 {
     background: #377412;
  	color: black;
 }
 
-#cover_24 {
+#cover_17 {
     background: #be115b;
  	color: black;
 }
 
+#cover_18 {
+    background: #e6ac39;
+ 	color: black;
+}
+
+#cover_19 {
+    background: #1898b9;
+ 	color: black;
+}
+
+#cover_20 {
+    background: #faa99d;
+ 	color: black;
+}
+
+#cover_21 {
+    background: #1ea7e4;
+ 	color: black;
+}
+
+#cover_22 {
+    background: #fbc6c5;
+ 	color: black;
+}
+
+#cover_23 {
+    background: #204193;
+ 	color: white;
+}
+
+#cover_24 {
+    background: #f2c4dd;
+ 	color: black;
+}
+
 #cover_25 {
-    background: #664fb9;
+    background: #1bb391;
  	color: black;
 }
 
 #cover_26 {
-    background: #f7b498;
+    background: #ded531;
  	color: black;
 }
 
 #cover_27 {
     background: #4aba6d;
- 	color: black;
-}
-
-#cover_28 {
-    background: #f2b72b;
  	color: black;
 }
 
