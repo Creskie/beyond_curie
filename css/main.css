@@ -28,8 +28,8 @@
 }
 
 #cover_1 {
-    background: #000000;
- 	color: white;
+    background: #f77066;
+ 	color: black;
 }
 
 #cover_2 {
@@ -289,11 +289,11 @@
 }
 
 .primary_info {
-	font-family: Univers-Bold, sans-serif;
+  font-family: Univers-Bold, sans-serif;
   margin-top: 0px;
-	margin-bottom: 0px;
+  margin-bottom: 0px;
   margin-right: 0.5rem;
-	font-size: 10pt;
+  font-size: 8pt;
   text-align: right;
 }
 
