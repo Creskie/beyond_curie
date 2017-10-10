@@ -1,4 +1,4 @@
-$('img.lazy').lazyload();
+$('img.lazy').lazyload({ threshold: 1000 });
 
 // Click card back to fade in/out full-screen div
 $('.card').click(function onCardClick() {
