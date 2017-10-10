@@ -9,8 +9,6 @@ $('.gallery_poster').click(function onCardClick() {
     .one('transitionend webkitTransitionEnd oTransitionEnd', function onCoverFadeIn() {
       $('body').addClass('stop-scrolling');
     });
-
-  // $('body').on('touchmove', function (e) { e.preventDefault(); });
 });
 $('.cover').click(function onCoverClick() {
   $(this)
@@ -18,9 +16,7 @@ $('.cover').click(function onCoverClick() {
     .addClass('cover-hidden')
     .off('transitionend webkitTransitionEnd oTransitionEnd');
 
-  $('body')
-    .removeClass('stop-scrolling')
-    // .off('touchmove');
+  $('body').removeClass('stop-scrolling');
 });
 
 // Loading Screen
