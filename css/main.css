@@ -185,15 +185,15 @@
 /* Style */
 #title {
 	font-family: Univers-Black, sans-serif;
-	font-size: 50pt;
+	font-size: 45pt;
 	text-align: center;
-	margin-top: 12%;
+	margin-top: 8rem;
 	margin-bottom: 0;
 }
 
 #description {
-	margin-top: 5%;
-	margin-bottom: 8%;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -202,8 +202,8 @@
 
 #blurb {
 	font-family: Univers-Bold, sans-serif;
-	font-size: 25pt;
-	margin-bottom: 5%;
+	font-size: 15pt;
+	margin-bottom: 2rem;
 }
 
 #instructions {
@@ -234,7 +234,7 @@
 .name {
 	text-align: center;
 	font-family: Univers-Black, sans-serif;
-	margin-top: 13%;
+	margin-top: 8rem;
 	width: 80vw;
 	margin-left: auto;
 	margin-bottom: 0;
@@ -245,7 +245,7 @@
 .dates {
 	text-align: center;
 	font-family: Univers-Bold, sans-serif;
-	margin-top: 3%;
+	margin-top: 2rem;
 	width: 80vw;
 	margin-left: auto;
 	margin-bottom: 0;
@@ -256,17 +256,17 @@
 .quote {
 	text-align: center;
 	font-family: Univers-Regular-Italic, sans-serif;
-	margin-top: 2%;
+	margin-top: 1rem;
 	width: 80vw;
 	margin-left: auto;
-	margin-bottom: 10%;
+	margin-bottom: 5rem;
 	margin-right: auto;
 	font-size: 12pt;
 }
 
 .primary_info {
 	font-family: Univers-Bold, sans-serif;
-	margin-top: 5%;
+	margin-top: 2rem;
 	width: 80vw;
 	margin-left: auto;
 	margin-bottom: 0;
@@ -276,7 +276,7 @@
 
 .intermediate_info {
 	font-family: Univers-Regular, sans-serif;
-	margin-top: 1%;
+	margin-top: .5rem;
 	width: 80vw;
 	margin-left: auto;
 	margin-bottom: 0;
@@ -286,10 +286,10 @@
 
 .paragraph {
 	font-family: Univers-Regular-Italic, sans-serif;
-	margin-top: 10%;
+	margin-top: 3rem;
 	width: 80vw;
 	margin-left: auto;
-	margin-bottom: 13%;
+	margin-bottom: 5rem;
 	margin-right: auto;
 	font-size: 10pt;
 }
