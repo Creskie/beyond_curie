@@ -522,9 +522,9 @@
     z-index: 100;
     width: 100vw;
     height: 100vh;
-    background-color: #f5f7fb;
-    background-image: url('../images/flip_card_loading.gif');
-    background-size: 50%;
+    background-color: #CC0000;
+    background-image: url('../images/ncsu_loading.svg');
+    background-size: 35%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -681,7 +681,7 @@
 #mobile_nav {
     list-style-type: none;
 	right: 0;
-	bottom:0;
+	top: 1vh;
 	position: fixed;
 	z-index: 1;
 	margin-right: 10px;
