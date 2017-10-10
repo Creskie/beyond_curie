@@ -52,7 +52,7 @@ $(document).ready(function onReady() {
 	$('html,body').scrollTop(0);
 });
 
-$("li a").click(function(event){
+$(".side_number").click(function(event){
 	event.preventDefault();
 	var index = $(this).attr("href");
   var header = $('.poster_number')[index - 1];
