@@ -4,14 +4,16 @@ $('img.lazy').lazyload({ threshold: 1000 });
 $('.card').click(function onCardClick() {
   var cardKey = $(this).data('key');
   var coverSelector = "#cover_" + cardKey;
-  $(coverSelector).fadeIn('slow');
-
   var body = $('body');
-  body.addClass('stop-scrolling');
+
+  $(coverSelector).fadeIn(400, function onFadeOut() {
+    body.addClass('stop-scrolling');
+  });
+
   body.on('touchmove', function (e) { e.preventDefault(); });
 });
 $('.cover').click(function onCoverClick() {
-  $(this).fadeOut('slow');
+  $(this).fadeOut(400);
 
   var body = $('body');
   body.removeClass('stop-scrolling');
@@ -24,7 +26,7 @@ $('.cover').click(function onCoverClick() {
 
 	function stopLoadingAnimation() {
 		$('#container').css('display', 'block');
-		$('#loading').fadeOut("slow");
+		$('#loading').fadeOut(400);
 	};
 
 	function detectRace() {
