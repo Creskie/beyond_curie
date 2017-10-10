@@ -12,7 +12,6 @@
 
   z-index: 100;
 
-<<<<<<< Updated upstream
   overflow: scroll;
 }
 
@@ -36,20 +35,6 @@
 #cover_2 {
     background: #43174b;
  	color: white;
-=======
-  display: none;
-  overflow: scroll;
-}
-
-#cover_1 {
-    background: #000000;
- 	color: white;
-}
-
-#cover_2 {
-    background: #ffffff;
- 	color: black;
->>>>>>> Stashed changes
 }
 
 #cover_3 {
@@ -58,53 +43,31 @@
 }
 
 #cover_4 {
-<<<<<<< Updated upstream
     background: #19a2ae;
-=======
-    background: #f6583a;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_5 {
-<<<<<<< Updated upstream
     background: #d5e393;
-=======
-    background: #f2c4dd;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_6 {
-<<<<<<< Updated upstream
     background: #ef4072;
-=======
-    background: #f6ece3;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_7 {
-<<<<<<< Updated upstream
     background: #664fb9;
  	color: black;
 }
 
 #cover_8 {
     background: #ac83b5;
-=======
-    background: #204193;
- 	color: white;
-}
-
-#cover_8 {
-    background: #ded531;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_9 {
-<<<<<<< Updated upstream
     background: #9ed5ce;
  	color: black;
 }
@@ -116,19 +79,6 @@
 
 #cover_11 {
     background: #ffffff;
-=======
-    background: #43174b;
- 	color: white;
-}
-
-#cover_10 {
-    background: #f77066;
- 	color: black;
-}
-
-#cover_11 {
-    background: #1bb391;
->>>>>>> Stashed changes
  	color: black;
 }
 
@@ -138,143 +88,78 @@
 }
 
 #cover_13 {
-<<<<<<< Updated upstream
     background: #6b7c4d;
-=======
-    background: #9dd3ca;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_14 {
-<<<<<<< Updated upstream
     background: #f6583a;
-=======
-    background: #e6ac39;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_15 {
-<<<<<<< Updated upstream
     background: #f2b72b;
-=======
-    background: #1ea7e4;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_16 {
-<<<<<<< Updated upstream
     background: #377412;
-=======
-    background: #19a1ad;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_17 {
-<<<<<<< Updated upstream
     background: #be115b;
-=======
-    background: #ef4072;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_18 {
-<<<<<<< Updated upstream
     background: #e6ac39;
-=======
-    background: #faa99d;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_19 {
-<<<<<<< Updated upstream
     background: #1898b9;
-=======
-    background: #d5e393;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_20 {
-<<<<<<< Updated upstream
     background: #faa99d;
-=======
-    background: #1999ba;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_21 {
-<<<<<<< Updated upstream
     background: #1ea7e4;
-=======
-    background: #fd9aaf;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_22 {
-<<<<<<< Updated upstream
     background: #fbc6c5;
-=======
-    background: #af85b8;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_23 {
-<<<<<<< Updated upstream
     background: #204193;
  	color: white;
 }
 
 #cover_24 {
     background: #f2c4dd;
-=======
-    background: #377412;
- 	color: black;
-}
-
-#cover_24 {
-    background: #be115b;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_25 {
-<<<<<<< Updated upstream
     background: #1bb391;
-=======
-    background: #664fb9;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_26 {
-<<<<<<< Updated upstream
     background: #ded531;
-=======
-    background: #f7b498;
->>>>>>> Stashed changes
  	color: black;
 }
 
 #cover_27 {
     background: #4aba6d;
  	color: black;
-<<<<<<< Updated upstream
-=======
-}
-
-#cover_28 {
-    background: #f2b72b;
- 	color: black;
->>>>>>> Stashed changes
 }
 
 /* Stop scrolling of body when full-screen div */
@@ -545,13 +430,3 @@ hr {
 .credit_image {
   width: 100%;
 }
-<<<<<<< Updated upstream
-=======
-
-#credits_container_3 {
-	display: inline-block;
-	vertical-align: text-top;
-	margin-left: 3vw;
-	margin-right: 0;
-}
->>>>>>> Stashed changes
