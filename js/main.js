@@ -54,9 +54,10 @@ $(document).ready(function onReady() {
 
 $("li a").click(function(event){
 	event.preventDefault();
-	var id = $(this).attr("href");
-	var divPosition = $(id).offset().top;
-	$("html, body").animate({scrollTop: divPosition});
+	var index = $(this).attr("href");
+  var header = $('.poster_number')[index - 1];
+  var divPos = $(header).offset().top;
+	$("html, body").animate({scrollTop: divPos});
 });
 
 // Side navigation bar fade while scrolling
