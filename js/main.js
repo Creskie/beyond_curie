@@ -51,9 +51,13 @@ $(document).ready(function onReady() {
 $(".side_number").click(function(event){
 	event.preventDefault();
 	var index = $(this).attr("href");
+
   var header = $('.poster_number')[index - 1];
-  var divPos = $(header).offset().top;
-	$("html, body").animate({scrollTop: divPos});
+  var poster = $('.gallery_poster')[index - 1];
+
+  var scrollTop = $(header).offset().top + Math.floor(($(poster).height() - $(window).height()) / 2);
+
+	$("html, body").animate({ scrollTop: scrollTop });
 });
 
 // Side navigation bar fade while scrolling
