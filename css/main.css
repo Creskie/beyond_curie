@@ -1,506 +1,159 @@
 /* Colored div overlay */
+.cover {
+  position: fixed;
+  padding: 0px;
+  margin: 0px;
+
+  top: 0px;
+  left: 0px;
+
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 100;
+
+  display: none;
+  overflow: scroll;
+}
+
 #cover_1 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #000000;
  	color: white;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_2 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #ffffff;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_3 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #f8dfc9;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_4 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #f6583a;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_5 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #f2c4dd;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_6 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #f6ece3;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_7 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #204193;
  	color: white;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_8 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #ded531;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_9 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #43174b;
  	color: white;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_10 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #f77066;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_11 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #1bb391;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_12 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #fbc6c5;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_13 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #9dd3ca;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_14 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #e6ac39;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_15 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #1ea7e4;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_16 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #19a1ad;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_17 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #ef4072;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_18 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #faa99d;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_19 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #d5e393;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_20 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #1999ba;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_21 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #fd9aaf;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_22 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #af85b8;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_23 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #377412;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_24 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #be115b;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_25 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #664fb9;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_26 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #f7b498;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_27 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #4aba6d;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 #cover_28 {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100vw;
-    height: 100vh;
     background: #f2b72b;
  	color: black;
-    z-index: 100;
-
-    display: none;
-    overflow: scroll;
 }
 
 /* Stop scrolling of body when full-screen div */
