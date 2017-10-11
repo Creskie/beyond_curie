@@ -300,7 +300,7 @@ table {
 }
 
 #title2 {
-	margin-top: 6rem;
+	margin-top: 3rem;
 	font-family: Univers-Bold;
 	font-size: 20pt;
 }
@@ -308,12 +308,22 @@ table {
 #blurb2 {
 	font-family: Univers-Regular, sans-serif;
 	font-size: 9pt;
-	margin-bottom: 1rem;
+	margin-bottom: .75rem;
 }
 
 #setting2 {
+	font-family: Univers-Regular, sans-serif;
+	font-size: 8pt;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	width: 75%;
+}
+
+#setting3 {
 	font-family: Univers-Regular-Italic, sans-serif;
 	font-size: 8pt;
+	color: gray;
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
@@ -512,7 +522,7 @@ table {
 hr {
     display: block;
     height: 1px;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 9vw;
     margin-right: 9vw;
     border: 0;
