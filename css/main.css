@@ -300,9 +300,15 @@ table {
 }
 
 #title2 {
-	margin-top: 3rem;
+	margin-top: .5rem;
 	font-family: Univers-Bold;
 	font-size: 20pt;
+}
+
+#title3 {
+	margin-top: 3rem;
+	font-family: Univers-Bold;
+	font-size: 10pt;
 }
 
 #blurb2 {
